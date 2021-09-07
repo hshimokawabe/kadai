@@ -22,7 +22,6 @@ main {
   position: relative;
   background-color: #eee;
 }
-
 .step-box:last-child {
   margin-right: 0;
 }
@@ -65,8 +64,20 @@ footer {
   background-color: #aaa;
 }
 @media (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 50px;
+  }
   main {
     width: 100%;
+    padding: 50px auto;
     display: block;
+  }
+  .step-box {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .step-box:last-child {
+    margin-right: auto;
   }
 }
